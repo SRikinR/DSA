@@ -40,7 +40,6 @@ int main(){
     int search=binarySearch(arr,size,element);
     printf("Element %d is at %d\n",element,search);
     
-    
     return 0;
 }
 
