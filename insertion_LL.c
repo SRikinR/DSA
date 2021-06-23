@@ -61,7 +61,6 @@ struct node*InsertionAfterNode(struct node *head, struct node *preNode, int data
 	return head;
 }
 
-
 int main(){
 
 	struct node *head=(struct node*)malloc(sizeof(struct node));
