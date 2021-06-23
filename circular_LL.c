@@ -30,7 +30,6 @@ struct box *InsertAtStart(struct box *head,int data){
 
 }
 
-
 int main(){
 	struct box *lion=(struct box*)malloc(sizeof(struct box));
 	struct box *cat=(struct box*)malloc(sizeof(struct box));
