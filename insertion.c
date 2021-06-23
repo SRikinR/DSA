@@ -21,7 +21,6 @@ int insertion(int arr[],int index,int element,int size,int capacity){
 	return 0;
 }
 
-
 int main(){
 	int arr[100] = {7, 8, 12, 27, 88};
         int size = 5, element = 45, index=1;
