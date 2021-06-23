@@ -10,8 +10,7 @@ struct myArr{
 void createArr(struct myArr *a,int tsize,int usize){
 	a->total_size=tsize;
 	a->used_size=usize;
-	a->ptr=(int*)malloc(tsize*sizeof(int));
-	
+	a->ptr=(int*)malloc(tsize*sizeof(int));	
 }
 
 //int setValue(){
